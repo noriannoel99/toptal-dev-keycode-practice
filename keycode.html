@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>keycode</title>
+    <link rel="stylesheet" href="keycode.css" />
+  </head>
+  <body>
+    <header>NORIAN NOEL</header>
+    <section>
+      <div class="info-1">
+        <div class="word-1">JavaScript Key Code <span></span></div>
+        <div id="keycode"></div>
+        <p>Key Code Information</p>
+      </div>
+
+      <div class="flexbox">
+        <div class="box">
+          <div class="info">event.key</div>
+          <div class="mid"><div id="eventkey"></div></div>
+          <div class="last">
+            The value of the key pressed. Accounts for modifiers keys that
+            return CAPS and alternate chars.
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">event.location</div>
+          <div class="mid"><div id="eventlocation"></div></div>
+          <div class="last">
+            Some keys exist more than once on your keyboard. This provides the
+            location of the key pressed. Try it with both shifts.
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">event.code</div>
+          <div class="mid"><div id="eventcode"></div></div>
+          <div class="last">
+            The physical key on the keyboard. Doesn't care if you are holding a
+            modifier like Shift.
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">event.which</div>
+          <div class="mid"><div id="eventwhich"></div></div>
+          <div class="last">
+            event.which and event.keyCode are <a>deprecated</a> in modern
+            browsers. Use .key or .code instead.
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">Description</div>
+          <div class="mid"><div id="Description"></div></div>
+          <div class="last">
+            This is the description we have created. Think it can be improved?
+            <a>PR us on GitHub</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="info">Meta Keys</div>
+          <div class="mid"><div id="MetaKeys"></div></div>
+        </div>
+
+        <div class="box">
+          <div class="info">Event Dump</div>
+          <div class="mid"><div id="EventDump"></div></div>
+        </div>
+
+        <div class="box">
+          <div class="info">Similar Values</div>
+          <div class="mid"><div id="SimilarValues"></div></div>
+        </div>
+
+        <div class="box">
+          <div class="info">Unicode</div>
+          <div class="mid"><div id="Unicode"></div></div>
+        </div>
+
+        <div class="box">
+          <div class="info">History</div>
+          <div class="mid"><div id="History"></div></div>
+        </div>
+      </div>
+    </section>
+    <header>NORIAN NOEL</header>
+    <script src="script.js"></script>
+  </body>
+</html>
